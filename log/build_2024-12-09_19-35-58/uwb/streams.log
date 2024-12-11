@@ -1,0 +1,57 @@
+[0.790s] Invoking command in '/home/li/ros2_ws/src/uwb': PYTHONPATH=/home/li/ros2_ws/build/uwb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_ws/install/uwb/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uwb build --build-base /home/li/ros2_ws/build/uwb/build install --record /home/li/ros2_ws/build/uwb/install.log --single-version-externally-managed install_data
+[0.944s] running egg_info
+[0.945s] creating ../../build/uwb/uwb.egg-info
+[0.946s] writing ../../build/uwb/uwb.egg-info/PKG-INFO
+[0.946s] writing dependency_links to ../../build/uwb/uwb.egg-info/dependency_links.txt
+[0.946s] writing entry points to ../../build/uwb/uwb.egg-info/entry_points.txt
+[0.947s] writing requirements to ../../build/uwb/uwb.egg-info/requires.txt
+[0.947s] writing top-level names to ../../build/uwb/uwb.egg-info/top_level.txt
+[0.947s] writing manifest file '../../build/uwb/uwb.egg-info/SOURCES.txt'
+[0.947s] reading manifest file '../../build/uwb/uwb.egg-info/SOURCES.txt'
+[0.948s] writing manifest file '../../build/uwb/uwb.egg-info/SOURCES.txt'
+[0.948s] running build
+[0.948s] running build_py
+[0.948s] creating /home/li/ros2_ws/build/uwb/build
+[0.948s] creating /home/li/ros2_ws/build/uwb/build/lib
+[0.948s] creating /home/li/ros2_ws/build/uwb/build/lib/uwb
+[0.948s] copying uwb/UWBPlotter.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb
+[0.948s] copying uwb/UWBDataAggregator.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb
+[0.948s] copying uwb/UWBReceiver.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb
+[0.948s] copying uwb/UWBCalculator2.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb
+[0.949s] copying uwb/__init__.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb
+[0.949s] copying uwb/UWBCalculator.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb
+[0.949s] copying uwb/UWBDataAggregator2.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb
+[0.949s] running install
+[0.949s] running install_lib
+[0.949s] creating /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb
+[0.949s] copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBPlotter.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb
+[0.949s] copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBDataAggregator.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb
+[0.949s] copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBReceiver.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb
+[0.949s] copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBCalculator2.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb
+[0.949s] copying /home/li/ros2_ws/build/uwb/build/lib/uwb/__init__.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb
+[0.950s] copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBCalculator.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb
+[0.950s] copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBDataAggregator2.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb
+[0.950s] byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBPlotter.py to UWBPlotter.cpython-310.pyc
+[0.950s] byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBDataAggregator.py to UWBDataAggregator.cpython-310.pyc
+[0.951s] byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBReceiver.py to UWBReceiver.cpython-310.pyc
+[0.951s] byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBCalculator2.py to UWBCalculator2.cpython-310.pyc
+[0.952s] byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/__init__.py to __init__.cpython-310.pyc
+[0.952s] byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBCalculator.py to UWBCalculator.cpython-310.pyc
+[0.952s] byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBDataAggregator2.py to UWBDataAggregator2.cpython-310.pyc
+[0.954s] running install_data
+[0.954s] creating /home/li/ros2_ws/install/uwb/share/ament_index
+[0.954s] creating /home/li/ros2_ws/install/uwb/share/ament_index/resource_index
+[0.954s] creating /home/li/ros2_ws/install/uwb/share/ament_index/resource_index/packages
+[0.954s] copying resource/uwb -> /home/li/ros2_ws/install/uwb/share/ament_index/resource_index/packages
+[0.954s] copying package.xml -> /home/li/ros2_ws/install/uwb/share/uwb
+[0.954s] running install_egg_info
+[0.954s] Copying ../../build/uwb/uwb.egg-info to /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb-0.0.0-py3.10.egg-info
+[0.955s] running install_scripts
+[0.967s] Installing UWBCalculator script to /home/li/ros2_ws/install/uwb/lib/uwb
+[0.967s] Installing UWBCalculator2 script to /home/li/ros2_ws/install/uwb/lib/uwb
+[0.967s] Installing UWBDataAggregator script to /home/li/ros2_ws/install/uwb/lib/uwb
+[0.967s] Installing UWBDataAggregator2 script to /home/li/ros2_ws/install/uwb/lib/uwb
+[0.967s] Installing UWBPlotter script to /home/li/ros2_ws/install/uwb/lib/uwb
+[0.967s] Installing UWBReceiver script to /home/li/ros2_ws/install/uwb/lib/uwb
+[0.967s] writing list of installed files to '/home/li/ros2_ws/build/uwb/install.log'
+[0.988s] Invoked command in '/home/li/ros2_ws/src/uwb' returned '0': PYTHONPATH=/home/li/ros2_ws/build/uwb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_ws/install/uwb/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uwb build --build-base /home/li/ros2_ws/build/uwb/build install --record /home/li/ros2_ws/build/uwb/install.log --single-version-externally-managed install_data

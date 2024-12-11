@@ -1,0 +1,26 @@
+[0.778s] Invoking command in '/home/li/ros2_ws/src/uwb4': PYTHONPATH=/home/li/ros2_ws/build/uwb4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uwb4 build --build-base /home/li/ros2_ws/build/uwb4/build install --record /home/li/ros2_ws/build/uwb4/install.log --single-version-externally-managed install_data
+[0.933s] running egg_info
+[0.933s] writing ../../build/uwb4/uwb4.egg-info/PKG-INFO
+[0.933s] writing dependency_links to ../../build/uwb4/uwb4.egg-info/dependency_links.txt
+[0.934s] writing entry points to ../../build/uwb4/uwb4.egg-info/entry_points.txt
+[0.934s] writing requirements to ../../build/uwb4/uwb4.egg-info/requires.txt
+[0.934s] writing top-level names to ../../build/uwb4/uwb4.egg-info/top_level.txt
+[0.935s] reading manifest file '../../build/uwb4/uwb4.egg-info/SOURCES.txt'
+[0.935s] writing manifest file '../../build/uwb4/uwb4.egg-info/SOURCES.txt'
+[0.935s] running build
+[0.935s] running build_py
+[0.935s] running install
+[0.936s] running install_lib
+[0.936s] running install_data
+[0.937s] running install_egg_info
+[0.938s] removing '/home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4-0.0.0-py3.10.egg-info' (and everything under it)
+[0.938s] Copying ../../build/uwb4/uwb4.egg-info to /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4-0.0.0-py3.10.egg-info
+[0.938s] running install_scripts
+[0.952s] Installing UWBCalculator script to /home/li/ros2_ws/install/uwb4/lib/uwb4
+[0.952s] Installing UWBCalculator2 script to /home/li/ros2_ws/install/uwb4/lib/uwb4
+[0.952s] Installing UWBDataAggregator script to /home/li/ros2_ws/install/uwb4/lib/uwb4
+[0.952s] Installing UWBPlotter script to /home/li/ros2_ws/install/uwb4/lib/uwb4
+[0.952s] Installing UWBPlotter2 script to /home/li/ros2_ws/install/uwb4/lib/uwb4
+[0.952s] Installing UWBReceiver script to /home/li/ros2_ws/install/uwb4/lib/uwb4
+[0.952s] writing list of installed files to '/home/li/ros2_ws/build/uwb4/install.log'
+[0.968s] Invoked command in '/home/li/ros2_ws/src/uwb4' returned '0': PYTHONPATH=/home/li/ros2_ws/build/uwb4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/uwb4 build --build-base /home/li/ros2_ws/build/uwb4/build install --record /home/li/ros2_ws/build/uwb4/install.log --single-version-externally-managed install_data

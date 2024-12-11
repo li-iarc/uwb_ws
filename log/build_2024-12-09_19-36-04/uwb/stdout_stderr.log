@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/uwb/uwb.egg-info/PKG-INFO
+writing dependency_links to ../../build/uwb/uwb.egg-info/dependency_links.txt
+writing entry points to ../../build/uwb/uwb.egg-info/entry_points.txt
+writing requirements to ../../build/uwb/uwb.egg-info/requires.txt
+writing top-level names to ../../build/uwb/uwb.egg-info/top_level.txt
+reading manifest file '../../build/uwb/uwb.egg-info/SOURCES.txt'
+writing manifest file '../../build/uwb/uwb.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/uwb/uwb.egg-info to /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb-0.0.0-py3.10.egg-info
+running install_scripts
+Installing UWBCalculator script to /home/li/ros2_ws/install/uwb/lib/uwb
+Installing UWBCalculator2 script to /home/li/ros2_ws/install/uwb/lib/uwb
+Installing UWBDataAggregator script to /home/li/ros2_ws/install/uwb/lib/uwb
+Installing UWBDataAggregator2 script to /home/li/ros2_ws/install/uwb/lib/uwb
+Installing UWBPlotter script to /home/li/ros2_ws/install/uwb/lib/uwb
+Installing UWBReceiver script to /home/li/ros2_ws/install/uwb/lib/uwb
+writing list of installed files to '/home/li/ros2_ws/build/uwb/install.log'

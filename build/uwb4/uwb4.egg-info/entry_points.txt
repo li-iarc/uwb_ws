@@ -1,0 +1,8 @@
+[console_scripts]
+UWBCalculator = uwb4.UWBCalculator:main
+UWBCalculator2 = uwb4.UWBCalculator2:main
+UWBDataAggregator = uwb4.UWBDataAggregator:main
+UWBPlotter = uwb4.UWBPlotter:main
+UWBPlotter2 = uwb4.UWBPlotter2:main
+UWBReceiver = uwb4.UWBReceiver:main
+

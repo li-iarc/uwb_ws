@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/uwb5/uwb5.egg-info
+writing ../../build/uwb5/uwb5.egg-info/PKG-INFO
+writing dependency_links to ../../build/uwb5/uwb5.egg-info/dependency_links.txt
+writing entry points to ../../build/uwb5/uwb5.egg-info/entry_points.txt
+writing requirements to ../../build/uwb5/uwb5.egg-info/requires.txt
+writing top-level names to ../../build/uwb5/uwb5.egg-info/top_level.txt
+writing manifest file '../../build/uwb5/uwb5.egg-info/SOURCES.txt'
+reading manifest file '../../build/uwb5/uwb5.egg-info/SOURCES.txt'
+writing manifest file '../../build/uwb5/uwb5.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/li/ros2_ws/build/uwb5/build
+creating /home/li/ros2_ws/build/uwb5/build/lib
+creating /home/li/ros2_ws/build/uwb5/build/lib/uwb5
+copying uwb5/UWBPlotter.py -> /home/li/ros2_ws/build/uwb5/build/lib/uwb5
+copying uwb5/UWBDataAggregator.py -> /home/li/ros2_ws/build/uwb5/build/lib/uwb5
+copying uwb5/UWBReceiver.py -> /home/li/ros2_ws/build/uwb5/build/lib/uwb5
+copying uwb5/__init__.py -> /home/li/ros2_ws/build/uwb5/build/lib/uwb5
+copying uwb5/UWBCalculator.py -> /home/li/ros2_ws/build/uwb5/build/lib/uwb5
+running install
+running install_lib
+creating /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5
+copying /home/li/ros2_ws/build/uwb5/build/lib/uwb5/UWBPlotter.py -> /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5
+copying /home/li/ros2_ws/build/uwb5/build/lib/uwb5/UWBDataAggregator.py -> /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5
+copying /home/li/ros2_ws/build/uwb5/build/lib/uwb5/UWBReceiver.py -> /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5
+copying /home/li/ros2_ws/build/uwb5/build/lib/uwb5/__init__.py -> /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5
+copying /home/li/ros2_ws/build/uwb5/build/lib/uwb5/UWBCalculator.py -> /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5
+byte-compiling /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5/UWBPlotter.py to UWBPlotter.cpython-310.pyc
+byte-compiling /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5/UWBDataAggregator.py to UWBDataAggregator.cpython-310.pyc
+byte-compiling /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5/UWBReceiver.py to UWBReceiver.cpython-310.pyc
+byte-compiling /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5/UWBCalculator.py to UWBCalculator.cpython-310.pyc
+running install_data
+creating /home/li/ros2_ws/install/uwb5/share/ament_index
+creating /home/li/ros2_ws/install/uwb5/share/ament_index/resource_index
+creating /home/li/ros2_ws/install/uwb5/share/ament_index/resource_index/packages
+copying resource/uwb5 -> /home/li/ros2_ws/install/uwb5/share/ament_index/resource_index/packages
+copying package.xml -> /home/li/ros2_ws/install/uwb5/share/uwb5
+running install_egg_info
+Copying ../../build/uwb5/uwb5.egg-info to /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5-0.0.0-py3.10.egg-info
+running install_scripts
+Installing UWBCalculator script to /home/li/ros2_ws/install/uwb5/lib/uwb5
+Installing UWBDataAggregator script to /home/li/ros2_ws/install/uwb5/lib/uwb5
+Installing UWBPlotter script to /home/li/ros2_ws/install/uwb5/lib/uwb5
+Installing UWBReceiver script to /home/li/ros2_ws/install/uwb5/lib/uwb5
+writing list of installed files to '/home/li/ros2_ws/build/uwb5/install.log'

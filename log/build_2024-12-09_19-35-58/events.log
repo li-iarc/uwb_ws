@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000547] (uwb) JobQueued: {'identifier': 'uwb', 'dependencies': OrderedDict()}
+[0.000590] (uwb4) JobQueued: {'identifier': 'uwb4', 'dependencies': OrderedDict()}
+[0.000617] (uwb5) JobQueued: {'identifier': 'uwb5', 'dependencies': OrderedDict()}
+[0.000640] (uwb) JobStarted: {'identifier': 'uwb'}
+[0.004953] (uwb4) JobStarted: {'identifier': 'uwb4'}
+[0.009762] (uwb5) JobStarted: {'identifier': 'uwb5'}
+[0.099855] (-) TimerEvent: {}
+[0.200058] (-) TimerEvent: {}
+[0.300282] (-) TimerEvent: {}
+[0.400601] (-) TimerEvent: {}
+[0.500883] (-) TimerEvent: {}
+[0.601282] (-) TimerEvent: {}
+[0.701593] (-) TimerEvent: {}
+[0.785932] (uwb4) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uwb4', 'build', '--build-base', '/home/li/ros2_ws/build/uwb4/build', 'install', '--record', '/home/li/ros2_ws/build/uwb4/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/li/ros2_ws/src/uwb4', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'li', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/li', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lzh_TW', 'SYSTEMD_EXEC_PID': '36748', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'COLCON_PREFIX_PATH': '/home/li/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'li', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'li', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/li/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/li:@/tmp/.ICE-unix/2478,unix/li:/tmp/.ICE-unix/2478', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b0b2b1e4_f187_4a62_85c9_cf341988b332', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lzh_TW', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.192', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/li/ros2_ws/install/uwb5:/home/li/ros2_ws/install/uwb4:/home/li/ros2_ws/install/uwb:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'lzh_TW', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/li/ros2_ws/build/uwb4', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/li/ros2_ws/build/uwb4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages:/home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages:/home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages:/home/li/ros2_ws/install/uwb/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.788591] (uwb5) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uwb5', 'build', '--build-base', '/home/li/ros2_ws/build/uwb5/build', 'install', '--record', '/home/li/ros2_ws/build/uwb5/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/li/ros2_ws/src/uwb5', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'li', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/li', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lzh_TW', 'SYSTEMD_EXEC_PID': '36748', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'COLCON_PREFIX_PATH': '/home/li/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'li', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'li', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/li/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/li:@/tmp/.ICE-unix/2478,unix/li:/tmp/.ICE-unix/2478', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b0b2b1e4_f187_4a62_85c9_cf341988b332', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lzh_TW', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.192', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/li/ros2_ws/install/uwb5:/home/li/ros2_ws/install/uwb4:/home/li/ros2_ws/install/uwb:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'lzh_TW', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/li/ros2_ws/build/uwb5', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/li/ros2_ws/build/uwb5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages:/home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages:/home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages:/home/li/ros2_ws/install/uwb/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.789567] (uwb) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uwb', 'build', '--build-base', '/home/li/ros2_ws/build/uwb/build', 'install', '--record', '/home/li/ros2_ws/build/uwb/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/li/ros2_ws/src/uwb', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'li', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/li', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'lzh_TW', 'SYSTEMD_EXEC_PID': '36748', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'COLCON_PREFIX_PATH': '/home/li/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'li', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'li', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/li/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/li:@/tmp/.ICE-unix/2478,unix/li:/tmp/.ICE-unix/2478', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lzh_TW', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b0b2b1e4_f187_4a62_85c9_cf341988b332', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'lzh_TW', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.192', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/li/ros2_ws/install/uwb5:/home/li/ros2_ws/install/uwb4:/home/li/ros2_ws/install/uwb:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'lzh_TW', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/li/ros2_ws/build/uwb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/li/ros2_ws/build/uwb/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/li/ros2_ws/install/uwb/lib/python3.10/site-packages:/home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages:/home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages:/home/li/ros2_ws/install/uwb/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.801668] (-) TimerEvent: {}
+[0.902029] (-) TimerEvent: {}
+[0.943298] (uwb5) StdoutLine: {'line': b'running egg_info\n'}
+[0.943606] (uwb5) StdoutLine: {'line': b'creating ../../build/uwb5/uwb5.egg-info\n'}
+[0.943821] (uwb5) StdoutLine: {'line': b'writing ../../build/uwb5/uwb5.egg-info/PKG-INFO\n'}
+[0.944009] (uwb5) StdoutLine: {'line': b'writing dependency_links to ../../build/uwb5/uwb5.egg-info/dependency_links.txt\n'}
+[0.944115] (uwb5) StdoutLine: {'line': b'writing entry points to ../../build/uwb5/uwb5.egg-info/entry_points.txt\n'}
+[0.944210] (uwb5) StdoutLine: {'line': b'writing requirements to ../../build/uwb5/uwb5.egg-info/requires.txt\n'}
+[0.944283] (uwb5) StdoutLine: {'line': b'writing top-level names to ../../build/uwb5/uwb5.egg-info/top_level.txt\n'}
+[0.944352] (uwb5) StdoutLine: {'line': b"writing manifest file '../../build/uwb5/uwb5.egg-info/SOURCES.txt'\n"}
+[0.944940] (uwb5) StdoutLine: {'line': b"reading manifest file '../../build/uwb5/uwb5.egg-info/SOURCES.txt'\n"}
+[0.945050] (uwb) StdoutLine: {'line': b'running egg_info\n'}
+[0.945437] (uwb5) StdoutLine: {'line': b"writing manifest file '../../build/uwb5/uwb5.egg-info/SOURCES.txt'\n"}
+[0.945643] (uwb) StdoutLine: {'line': b'creating ../../build/uwb/uwb.egg-info\n'}
+[0.945818] (uwb5) StdoutLine: {'line': b'running build\n'}
+[0.945899] (uwb5) StdoutLine: {'line': b'running build_py\n'}
+[0.945976] (uwb5) StdoutLine: {'line': b'creating /home/li/ros2_ws/build/uwb5/build\n'}
+[0.946052] (uwb5) StdoutLine: {'line': b'creating /home/li/ros2_ws/build/uwb5/build/lib\n'}
+[0.946135] (uwb5) StdoutLine: {'line': b'creating /home/li/ros2_ws/build/uwb5/build/lib/uwb5\n'}
+[0.946311] (uwb5) StdoutLine: {'line': b'copying uwb5/UWBPlotter.py -> /home/li/ros2_ws/build/uwb5/build/lib/uwb5\n'}
+[0.946382] (uwb) StdoutLine: {'line': b'writing ../../build/uwb/uwb.egg-info/PKG-INFO\n'}
+[0.946457] (uwb5) StdoutLine: {'line': b'copying uwb5/UWBDataAggregator.py -> /home/li/ros2_ws/build/uwb5/build/lib/uwb5\n'}
+[0.946527] (uwb5) StdoutLine: {'line': b'copying uwb5/UWBReceiver.py -> /home/li/ros2_ws/build/uwb5/build/lib/uwb5\n'}
+[0.946636] (uwb5) StdoutLine: {'line': b'copying uwb5/__init__.py -> /home/li/ros2_ws/build/uwb5/build/lib/uwb5\n'}
+[0.946713] (uwb5) StdoutLine: {'line': b'copying uwb5/UWBCalculator.py -> /home/li/ros2_ws/build/uwb5/build/lib/uwb5\n'}
+[0.946805] (uwb5) StdoutLine: {'line': b'running install\n'}
+[0.946880] (uwb5) StdoutLine: {'line': b'running install_lib\n'}
+[0.946999] (uwb) StdoutLine: {'line': b'writing dependency_links to ../../build/uwb/uwb.egg-info/dependency_links.txt\n'}
+[0.947071] (uwb) StdoutLine: {'line': b'writing entry points to ../../build/uwb/uwb.egg-info/entry_points.txt\n'}
+[0.947303] (uwb) StdoutLine: {'line': b'writing requirements to ../../build/uwb/uwb.egg-info/requires.txt\n'}
+[0.947425] (uwb) StdoutLine: {'line': b'writing top-level names to ../../build/uwb/uwb.egg-info/top_level.txt\n'}
+[0.947500] (uwb) StdoutLine: {'line': b"writing manifest file '../../build/uwb/uwb.egg-info/SOURCES.txt'\n"}
+[0.947574] (uwb5) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5\n'}
+[0.947684] (uwb5) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb5/build/lib/uwb5/UWBPlotter.py -> /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5\n'}
+[0.947760] (uwb) StdoutLine: {'line': b"reading manifest file '../../build/uwb/uwb.egg-info/SOURCES.txt'\n"}
+[0.947835] (uwb5) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb5/build/lib/uwb5/UWBDataAggregator.py -> /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5\n'}
+[0.947909] (uwb5) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb5/build/lib/uwb5/UWBReceiver.py -> /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5\n'}
+[0.947984] (uwb5) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb5/build/lib/uwb5/__init__.py -> /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5\n'}
+[0.948057] (uwb5) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb5/build/lib/uwb5/UWBCalculator.py -> /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5\n'}
+[0.948138] (uwb) StdoutLine: {'line': b"writing manifest file '../../build/uwb/uwb.egg-info/SOURCES.txt'\n"}
+[0.948219] (uwb) StdoutLine: {'line': b'running build\n'}
+[0.948294] (uwb) StdoutLine: {'line': b'running build_py\n'}
+[0.948369] (uwb5) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5/UWBPlotter.py to UWBPlotter.cpython-310.pyc\n'}
+[0.948547] (uwb) StdoutLine: {'line': b'creating /home/li/ros2_ws/build/uwb/build\n'}
+[0.948622] (uwb) StdoutLine: {'line': b'creating /home/li/ros2_ws/build/uwb/build/lib\n'}
+[0.948696] (uwb) StdoutLine: {'line': b'creating /home/li/ros2_ws/build/uwb/build/lib/uwb\n'}
+[0.948770] (uwb) StdoutLine: {'line': b'copying uwb/UWBPlotter.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb\n'}
+[0.948843] (uwb) StdoutLine: {'line': b'copying uwb/UWBDataAggregator.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb\n'}
+[0.948917] (uwb) StdoutLine: {'line': b'copying uwb/UWBReceiver.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb\n'}
+[0.949023] (uwb) StdoutLine: {'line': b'copying uwb/UWBCalculator2.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb\n'}
+[0.949093] (uwb) StdoutLine: {'line': b'copying uwb/__init__.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb\n'}
+[0.949174] (uwb) StdoutLine: {'line': b'copying uwb/UWBCalculator.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb\n'}
+[0.949250] (uwb) StdoutLine: {'line': b'copying uwb/UWBDataAggregator2.py -> /home/li/ros2_ws/build/uwb/build/lib/uwb\n'}
+[0.949325] (uwb) StdoutLine: {'line': b'running install\n'}
+[0.949399] (uwb) StdoutLine: {'line': b'running install_lib\n'}
+[0.949501] (uwb) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb\n'}
+[0.949575] (uwb) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBPlotter.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb\n'}
+[0.949649] (uwb5) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5/UWBDataAggregator.py to UWBDataAggregator.cpython-310.pyc\n'}
+[0.949768] (uwb5) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5/UWBReceiver.py to UWBReceiver.cpython-310.pyc\n'}
+[0.949844] (uwb) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBDataAggregator.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb\n'}
+[0.949918] (uwb) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBReceiver.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb\n'}
+[0.949992] (uwb) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBCalculator2.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb\n'}
+[0.950065] (uwb) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb/build/lib/uwb/__init__.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb\n'}
+[0.950237] (uwb) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBCalculator.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb\n'}
+[0.950329] (uwb) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb/build/lib/uwb/UWBDataAggregator2.py -> /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb\n'}
+[0.950399] (uwb) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBPlotter.py to UWBPlotter.cpython-310.pyc\n'}
+[0.950468] (uwb4) StdoutLine: {'line': b'running egg_info\n'}
+[0.950561] (uwb) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBDataAggregator.py to UWBDataAggregator.cpython-310.pyc\n'}
+[0.950631] (uwb5) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5/__init__.py to __init__.cpython-310.pyc\n'}
+[0.950704] (uwb5) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5/UWBCalculator.py to UWBCalculator.cpython-310.pyc\n'}
+[0.950773] (uwb5) StdoutLine: {'line': b'running install_data\n'}
+[0.950847] (uwb5) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb5/share/ament_index\n'}
+[0.950919] (uwb5) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb5/share/ament_index/resource_index\n'}
+[0.950993] (uwb5) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb5/share/ament_index/resource_index/packages\n'}
+[0.951066] (uwb5) StdoutLine: {'line': b'copying resource/uwb5 -> /home/li/ros2_ws/install/uwb5/share/ament_index/resource_index/packages\n'}
+[0.951146] (uwb5) StdoutLine: {'line': b'copying package.xml -> /home/li/ros2_ws/install/uwb5/share/uwb5\n'}
+[0.951257] (uwb5) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.951331] (uwb4) StdoutLine: {'line': b'creating ../../build/uwb4/uwb4.egg-info\n'}
+[0.951438] (uwb4) StdoutLine: {'line': b'writing ../../build/uwb4/uwb4.egg-info/PKG-INFO\n'}
+[0.951512] (uwb4) StdoutLine: {'line': b'writing dependency_links to ../../build/uwb4/uwb4.egg-info/dependency_links.txt\n'}
+[0.951600] (uwb4) StdoutLine: {'line': b'writing entry points to ../../build/uwb4/uwb4.egg-info/entry_points.txt\n'}
+[0.951676] (uwb4) StdoutLine: {'line': b'writing requirements to ../../build/uwb4/uwb4.egg-info/requires.txt\n'}
+[0.951749] (uwb4) StdoutLine: {'line': b'writing top-level names to ../../build/uwb4/uwb4.egg-info/top_level.txt\n'}
+[0.951823] (uwb) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBReceiver.py to UWBReceiver.cpython-310.pyc\n'}
+[0.951928] (uwb4) StdoutLine: {'line': b"writing manifest file '../../build/uwb4/uwb4.egg-info/SOURCES.txt'\n"}
+[0.952002] (uwb) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBCalculator2.py to UWBCalculator2.cpython-310.pyc\n'}
+[0.952076] (uwb5) StdoutLine: {'line': b'Copying ../../build/uwb5/uwb5.egg-info to /home/li/ros2_ws/install/uwb5/lib/python3.10/site-packages/uwb5-0.0.0-py3.10.egg-info\n'}
+[0.952228] (uwb4) StdoutLine: {'line': b"reading manifest file '../../build/uwb4/uwb4.egg-info/SOURCES.txt'\n"}
+[0.952305] (uwb) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/__init__.py to __init__.cpython-310.pyc\n'}
+[0.952398] (uwb) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBCalculator.py to UWBCalculator.cpython-310.pyc\n'}
+[0.952473] (uwb4) StdoutLine: {'line': b"writing manifest file '../../build/uwb4/uwb4.egg-info/SOURCES.txt'\n"}
+[0.952545] (uwb) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb/UWBDataAggregator2.py to UWBDataAggregator2.cpython-310.pyc\n'}
+[0.952619] (uwb5) StdoutLine: {'line': b'running install_scripts\n'}
+[0.952696] (uwb4) StdoutLine: {'line': b'running build\n'}
+[0.952769] (uwb4) StdoutLine: {'line': b'running build_py\n'}
+[0.952842] (uwb4) StdoutLine: {'line': b'creating /home/li/ros2_ws/build/uwb4/build\n'}
+[0.952915] (uwb4) StdoutLine: {'line': b'creating /home/li/ros2_ws/build/uwb4/build/lib\n'}
+[0.952989] (uwb4) StdoutLine: {'line': b'creating /home/li/ros2_ws/build/uwb4/build/lib/uwb4\n'}
+[0.953062] (uwb4) StdoutLine: {'line': b'copying uwb4/UWBPlotter2.py -> /home/li/ros2_ws/build/uwb4/build/lib/uwb4\n'}
+[0.953140] (uwb4) StdoutLine: {'line': b'copying uwb4/UWBPlotter.py -> /home/li/ros2_ws/build/uwb4/build/lib/uwb4\n'}
+[0.953343] (uwb4) StdoutLine: {'line': b'copying uwb4/UWBDataAggregator.py -> /home/li/ros2_ws/build/uwb4/build/lib/uwb4\n'}
+[0.953413] (uwb4) StdoutLine: {'line': b'copying uwb4/UWBReceiver.py -> /home/li/ros2_ws/build/uwb4/build/lib/uwb4\n'}
+[0.953483] (uwb4) StdoutLine: {'line': b'copying uwb4/UWBCalculator2.py -> /home/li/ros2_ws/build/uwb4/build/lib/uwb4\n'}
+[0.953566] (uwb4) StdoutLine: {'line': b'copying uwb4/__init__.py -> /home/li/ros2_ws/build/uwb4/build/lib/uwb4\n'}
+[0.953635] (uwb4) StdoutLine: {'line': b'copying uwb4/UWBCalculator.py -> /home/li/ros2_ws/build/uwb4/build/lib/uwb4\n'}
+[0.953703] (uwb4) StdoutLine: {'line': b'running install\n'}
+[0.953776] (uwb4) StdoutLine: {'line': b'running install_lib\n'}
+[0.953848] (uwb4) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4\n'}
+[0.953922] (uwb4) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb4/build/lib/uwb4/UWBPlotter2.py -> /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4\n'}
+[0.953995] (uwb4) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb4/build/lib/uwb4/UWBPlotter.py -> /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4\n'}
+[0.954070] (uwb4) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb4/build/lib/uwb4/UWBDataAggregator.py -> /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4\n'}
+[0.954173] (uwb4) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb4/build/lib/uwb4/UWBReceiver.py -> /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4\n'}
+[0.954250] (uwb4) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb4/build/lib/uwb4/UWBCalculator2.py -> /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4\n'}
+[0.954339] (uwb) StdoutLine: {'line': b'running install_data\n'}
+[0.954412] (uwb) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb/share/ament_index\n'}
+[0.954487] (uwb) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb/share/ament_index/resource_index\n'}
+[0.954556] (uwb) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb/share/ament_index/resource_index/packages\n'}
+[0.954625] (uwb) StdoutLine: {'line': b'copying resource/uwb -> /home/li/ros2_ws/install/uwb/share/ament_index/resource_index/packages\n'}
+[0.954694] (uwb) StdoutLine: {'line': b'copying package.xml -> /home/li/ros2_ws/install/uwb/share/uwb\n'}
+[0.954763] (uwb) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.954835] (uwb4) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb4/build/lib/uwb4/__init__.py -> /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4\n'}
+[0.954908] (uwb4) StdoutLine: {'line': b'copying /home/li/ros2_ws/build/uwb4/build/lib/uwb4/UWBCalculator.py -> /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4\n'}
+[0.954981] (uwb4) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4/UWBPlotter2.py to UWBPlotter2.cpython-310.pyc\n'}
+[0.955055] (uwb) StdoutLine: {'line': b'Copying ../../build/uwb/uwb.egg-info to /home/li/ros2_ws/install/uwb/lib/python3.10/site-packages/uwb-0.0.0-py3.10.egg-info\n'}
+[0.955133] (uwb) StdoutLine: {'line': b'running install_scripts\n'}
+[0.955225] (uwb4) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4/UWBPlotter.py to UWBPlotter.cpython-310.pyc\n'}
+[0.955300] (uwb4) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4/UWBDataAggregator.py to UWBDataAggregator.cpython-310.pyc\n'}
+[0.955397] (uwb4) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4/UWBReceiver.py to UWBReceiver.cpython-310.pyc\n'}
+[0.956199] (uwb4) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4/UWBCalculator2.py to UWBCalculator2.cpython-310.pyc\n'}
+[0.956863] (uwb4) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4/__init__.py to __init__.cpython-310.pyc\n'}
+[0.956959] (uwb4) StdoutLine: {'line': b'byte-compiling /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4/UWBCalculator.py to UWBCalculator.cpython-310.pyc\n'}
+[0.957565] (uwb4) StdoutLine: {'line': b'running install_data\n'}
+[0.957695] (uwb4) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb4/share/ament_index\n'}
+[0.957770] (uwb4) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb4/share/ament_index/resource_index\n'}
+[0.957844] (uwb4) StdoutLine: {'line': b'creating /home/li/ros2_ws/install/uwb4/share/ament_index/resource_index/packages\n'}
+[0.957917] (uwb4) StdoutLine: {'line': b'copying resource/uwb4 -> /home/li/ros2_ws/install/uwb4/share/ament_index/resource_index/packages\n'}
+[0.958020] (uwb4) StdoutLine: {'line': b'copying package.xml -> /home/li/ros2_ws/install/uwb4/share/uwb4\n'}
+[0.958090] (uwb4) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.958956] (uwb4) StdoutLine: {'line': b'Copying ../../build/uwb4/uwb4.egg-info to /home/li/ros2_ws/install/uwb4/lib/python3.10/site-packages/uwb4-0.0.0-py3.10.egg-info\n'}
+[0.959254] (uwb4) StdoutLine: {'line': b'running install_scripts\n'}
+[0.964876] (uwb5) StdoutLine: {'line': b'Installing UWBCalculator script to /home/li/ros2_ws/install/uwb5/lib/uwb5\n'}
+[0.965035] (uwb5) StdoutLine: {'line': b'Installing UWBDataAggregator script to /home/li/ros2_ws/install/uwb5/lib/uwb5\n'}
+[0.965106] (uwb5) StdoutLine: {'line': b'Installing UWBPlotter script to /home/li/ros2_ws/install/uwb5/lib/uwb5\n'}
+[0.965205] (uwb5) StdoutLine: {'line': b'Installing UWBReceiver script to /home/li/ros2_ws/install/uwb5/lib/uwb5\n'}
+[0.965275] (uwb5) StdoutLine: {'line': b"writing list of installed files to '/home/li/ros2_ws/build/uwb5/install.log'\n"}
+[0.967272] (uwb) StdoutLine: {'line': b'Installing UWBCalculator script to /home/li/ros2_ws/install/uwb/lib/uwb\n'}
+[0.967370] (uwb) StdoutLine: {'line': b'Installing UWBCalculator2 script to /home/li/ros2_ws/install/uwb/lib/uwb\n'}
+[0.967469] (uwb) StdoutLine: {'line': b'Installing UWBDataAggregator script to /home/li/ros2_ws/install/uwb/lib/uwb\n'}
+[0.967576] (uwb) StdoutLine: {'line': b'Installing UWBDataAggregator2 script to /home/li/ros2_ws/install/uwb/lib/uwb\n'}
+[0.967648] (uwb) StdoutLine: {'line': b'Installing UWBPlotter script to /home/li/ros2_ws/install/uwb/lib/uwb\n'}
+[0.967744] (uwb) StdoutLine: {'line': b'Installing UWBReceiver script to /home/li/ros2_ws/install/uwb/lib/uwb\n'}
+[0.967815] (uwb) StdoutLine: {'line': b"writing list of installed files to '/home/li/ros2_ws/build/uwb/install.log'\n"}
+[0.972938] (uwb4) StdoutLine: {'line': b'Installing UWBCalculator script to /home/li/ros2_ws/install/uwb4/lib/uwb4\n'}
+[0.973061] (uwb4) StdoutLine: {'line': b'Installing UWBCalculator2 script to /home/li/ros2_ws/install/uwb4/lib/uwb4\n'}
+[0.973190] (uwb4) StdoutLine: {'line': b'Installing UWBDataAggregator script to /home/li/ros2_ws/install/uwb4/lib/uwb4\n'}
+[0.973271] (uwb4) StdoutLine: {'line': b'Installing UWBPlotter script to /home/li/ros2_ws/install/uwb4/lib/uwb4\n'}
+[0.973356] (uwb4) StdoutLine: {'line': b'Installing UWBPlotter2 script to /home/li/ros2_ws/install/uwb4/lib/uwb4\n'}
+[0.973443] (uwb4) StdoutLine: {'line': b'Installing UWBReceiver script to /home/li/ros2_ws/install/uwb4/lib/uwb4\n'}
+[0.973514] (uwb4) StdoutLine: {'line': b"writing list of installed files to '/home/li/ros2_ws/build/uwb4/install.log'\n"}
+[0.981157] (uwb5) CommandEnded: {'returncode': 0}
+[0.987253] (uwb5) JobEnded: {'identifier': 'uwb5', 'rc': 0}
+[0.988143] (uwb) CommandEnded: {'returncode': 0}
+[0.991607] (uwb) JobEnded: {'identifier': 'uwb', 'rc': 0}
+[0.992352] (uwb4) CommandEnded: {'returncode': 0}
+[0.995636] (uwb4) JobEnded: {'identifier': 'uwb4', 'rc': 0}
+[0.995950] (-) EventReactorShutdown: {}
