@@ -3,18 +3,31 @@ UWB program for tracking
 
 ## 共通架構
 - 部份程式有版本2(基本上就是檔名多了2),差異補充在程式的開頭註解中
+- 執行時首先開啟terminal,進入工作區,執行以下指令
+```bash
+cd ros2_ws
+```
+- 載入環境設定檔
+```bash
+. install/setup.bash 
+```
+- 接著就可以執行下方節點,一個terminal執行一個,每次開新的terminal都要載入環境設定檔
+- 若有修改檔案,則在儲存後在工作區資料夾執行以下指令以進行編譯
+```bash
+colcon build
+```
   
 ### UWBReceiver
 - 用於接收UWB資訊，再將資訊傳出
 - 接收時會進行濾波,將誤差過大的數值過濾掉
-- 範例為執行使用編號0、1、2號的UWB時的語法
+- 範例為執行使用編號0、1、2號的UWB時的指令
 ```bash
 ros2 run uwb UWBReceiver 0 1 2
 ```
 
 ### UWBDataAggregator
 - 用於統整UWBReceiver接收到的資訊,再將資訊傳出
-- 範例為執行使用編號0、1、2號的UWB時的語法
+- 範例為執行使用編號0、1、2號的UWB時的指令
 ```bash
 ros2 run uwb UWBDataAggregator 0 1 2
 ```
@@ -22,7 +35,7 @@ ros2 run uwb UWBDataAggregator 0 1 2
 ### UWBCalculator
 - 用於計算從UWBDataAggregator接收到的資訊,再將計算結果(如使用者座標與角度)傳出
 - 若UWB裝設位置有更動,需更改程式內的點座標
-- 範例為執行語法
+- 範例為執行指令
 ```bash
 ros2 run uwb UWBCalculator
 ```
@@ -30,10 +43,11 @@ ros2 run uwb UWBCalculator
 ### UWBPlotter
 - 用於將UWBCalculator的計算結果以圖顯示
 - 若UWB裝設位置有更動,需更改程式內的點座標
-- 範例為執行語法
+- 範例為執行指令
 ```bash
 ros2 run uwb UWBPlotter
 ```
+
 
 ## 專案差異說明
 ### uwb
