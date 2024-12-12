@@ -5,8 +5,13 @@ UWB program for tracking
 - 部份程式有版本2(基本上就是檔名多了2),差異補充在程式的開頭註解中
 - 執行時首先開啟terminal,進入工作區,執行以下指令
 ```bash
-cd ros2_ws
+cd uwb_ws
 ```
+- 初次使用時需進行編譯
+```bash
+colcon build
+```
+
 - 載入環境設定檔
 ```bash
 . install/setup.bash 
@@ -34,6 +39,7 @@ ros2 run uwb UWBDataAggregator 0 1 2
 
 ### UWBCalculator
 - 用於計算從UWBDataAggregator接收到的資訊,再將計算結果(如使用者座標與角度)傳出
+- 計算結果會再次進行濾波
 - 若UWB裝設位置有更動,需更改程式內的點座標
 - 範例為執行指令
 ```bash
